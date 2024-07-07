@@ -40,4 +40,4 @@ Pode ser utilizado o conceito do switch/case, IF/ELSE, funções e... laço se j
 
 ### Link
 
-Live Site URL: [Page](https://your-live-site-url.com)
+Live Site URL: [Page](https://atividade-01-gold.vercel.app/)
