@@ -1,0 +1,55 @@
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(26.29,71.77%,51.37%);
+    color: white;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+form {
+    max-width: 50%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.input-control, 
+.result-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input {
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: hsl(26, 71%, 60%);
+    margin: 0.5rem 0;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}

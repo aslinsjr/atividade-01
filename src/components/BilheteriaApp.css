@@ -1,0 +1,14 @@
+.multi-form {
+    max-width: 100%;
+}
+
+.multi-form label {
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.multi-form input {
+    width: unset;
+}
