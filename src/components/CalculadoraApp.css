@@ -1,0 +1,14 @@
+.calc {
+    flex-direction: column;
+}
+
+.visor {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}

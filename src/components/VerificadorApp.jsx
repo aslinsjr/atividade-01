@@ -26,7 +26,7 @@ const VerificadorApp = () => {
   return (
     <div className='app'>
         <h1>Verificador</h1>
-        <div className="container">
+        <div className="container veri" >
             <form>
                 <label>Insira um número inteiro para ser verificado
                     <input type="text" placeholder='ex. 8'  onChange={(e) => setNumero(+e.target.value)}/>

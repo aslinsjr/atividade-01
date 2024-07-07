@@ -19,6 +19,23 @@
     border-radius: 0.5rem;
 }
 
+h1 {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 form {
     max-width: 50%;
 }
@@ -52,4 +69,17 @@ input:focus {
 
 input::placeholder {
     color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    background-color: hsl(26, 71%, 60%);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+#return-btn {
+    margin-top: 2rem;
 }

@@ -45,7 +45,7 @@ const CalculadoraApp = () => {
   return (
     <div className='app'>
         <h1>Calculadora</h1>
-        <div className="container">
+        <div className="container calc">
             <div className="visor">
               <h2>{result ? result : (array.toString()).replace(/,/g , "")}</h2>
             </div>

@@ -1,4 +1,20 @@
+.chat {
+    width: 50%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .menssage-box {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-box {
+    width: 100%;
+}
+
+#mensagem {
+    width: 100%;
 }

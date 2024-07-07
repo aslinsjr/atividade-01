@@ -50,7 +50,7 @@ const ChatApp = () => {
   return (
     <div className='app'>
         <h1>Chat Boot</h1>
-        <div className="container">
+        <div className="container chat">
             <div className="menssage-box">
                 {mensagemArray.map((menssage) => {
                         return <span className='menssage' key={menssage}>{menssage}</span>
